@@ -1,18 +1,19 @@
 package check;
+import constants.Constants;
 
 public class Check {
-		private String firstName = "太郎";
-		private String lastName = "山田";
+		private static String firstName = "太郎";
+		private static String lastName = "山田";
 
-	public void printName(){
-		System.out.println("printNameメソッド → " + this.lastName + this.firstName);
+	private static void printName(String firstName,String lastName){
+		System.out.println("printNameメソッド → " + lastName + firstName);
 	}
 
 	public static void main(String[] args) {
-		Check c = new Check();
-	    c.printName();
-	    Pet p = new Pet(constants.Constants.CHECK_CLASS_JAVA,constants.Constants.CHECK_CLASS_HOGE);
+		printName(firstName,lastName);
+	    Pet p = new Pet(Constants.CHECK_CLASS_JAVA,Constants.CHECK_CLASS_HOGE);
 	    p.introduce();
-	    RobotPet r = new RobotPet(constants.Constants.CHECK_CLASS_R2D2, constants.Constants.CHECK_CLASS_LUKE);
-	    r.introduce();}
+	    RobotPet r = new RobotPet(Constants.CHECK_CLASS_R2D2, Constants.CHECK_CLASS_LUKE);
+	    r.introduce();
+	}
 }
