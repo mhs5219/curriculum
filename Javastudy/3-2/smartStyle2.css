@@ -44,24 +44,29 @@
 @media screen and (max-width: 479px) {
 
     .wrapper {
-        width: 150px; 
+        width: 150px;
+        height: 100px;
     }
 
     .contents {
         float: none;
+        height: 360px;
     }
 
     .left {
         float: none;
+        height: 100px;
         width: 150px;
     }
 
     .center-right {
         float: none;
+        width: 150px;
     }
 
     .center-right-top {
         float: none;
+        width: 150px;
     }
 
     .center-right-left{
@@ -70,19 +75,23 @@
     }
     
     .center-right-left-top{
+        height: 50px;
         width: 150px;
     }
     
     .center-right-left-bottom{
+        height: 100px;
         width: 150px;
     }
 
     .center-right-right{
         float: none;
+        height: 100px;
         width: 150px;   
     }
 
     .center-right-bottom{
+        height: 100px;
         width: 150px;
     }
 
