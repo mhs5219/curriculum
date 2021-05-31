@@ -34,6 +34,7 @@ body {
 }
 
 .hw-center{
+    float: left;
     margin: 10px 60px 10px 60px;
     height: 40px;
     width: 40px;
@@ -41,7 +42,8 @@ body {
 }
 
 .hw-right{
-    margin: -50px 10px 10px 110px;
+    float: left;
+    margin: 10px 10px 10px 110px;
     height: 40px;
     width: 40px;
     background-color: #a9004b;
@@ -71,6 +73,7 @@ body {
 }
 
 .or-middle{
+    float: left;
     margin: 100px 60px 100px 40px;
     height: 40px;
     width: 140px;
@@ -79,7 +82,8 @@ body {
 }
 
 .or-lower{
-    margin: -90px 60px 40px 40px;
+    float: left;
+    margin: 160px 60px 40px 40px;
     height: 40px;
     width: 140px;
     border: solid 5px #ffffff;
