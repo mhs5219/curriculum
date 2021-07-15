@@ -17,16 +17,22 @@
         
     }
 
+    .hw-left{
+        margin: 10px 10px 5px 10px;
+        height: 40px;
+        width: 40px;
+        background-color: #a9004b;
+    }
+
     .hw-center{
-        margin: 60px 10px 60px 10px;
+        margin: 5px 10px 5px 10px;
         height: 40px;
         width: 40px;
         background-color: #a9004b;
     }
 
     .hw-right{
-        float: none;
-        margin: -50px 10px 10px 10px;
+        margin: 5px 10px 10px 10px;
         height: 40px;
         width: 40px;
         background-color: #a9004b;
@@ -49,14 +55,14 @@
 
     .or-upper {
         float: left;
-        margin: 20px 30px 140px 30px;
+        margin: 20px 30px 5px 30px;
     }
 
     .or-middle {
-        margin: 80px 30px 80px 30px;
+        margin: 5px 30px 5px 30px;
     }
 
     .or-lower {
-        margin: -70px 30px 20px 30px;
+        margin: 5px 30px 20px 30px;
     }
 }

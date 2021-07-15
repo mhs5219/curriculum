@@ -27,7 +27,7 @@ body {
 
 .hw-left{
     float: left;
-    margin: 10px 110px 10px 10px;
+    margin: 10px 5px 10px 10px;
     height: 40px;
     width: 40px;
     background-color: #a9004b;
@@ -35,7 +35,7 @@ body {
 
 .hw-center{
     float: left;
-    margin: 10px 60px 10px 60px;
+    margin: 10px 5px 10px 5px;
     height: 40px;
     width: 40px;
     background-color: #a9004b;
@@ -43,7 +43,7 @@ body {
 
 .hw-right{
     float: left;
-    margin: 10px 10px 10px 110px;
+    margin: 10px 10px 10px 5px;
     height: 40px;
     width: 40px;
     background-color: #a9004b;
@@ -65,7 +65,7 @@ body {
 
 .or-upper{
     float: left;
-    margin: 40px 60px 160px 40px;
+    margin: 40px 60px 5px 40px;
     height: 40px;
     width: 140px;
     border: solid 5px #ffffff;
@@ -74,7 +74,7 @@ body {
 
 .or-middle{
     float: left;
-    margin: 100px 60px 100px 40px;
+    margin: 5px 60px 5px 40px;
     height: 40px;
     width: 140px;
     border: solid 5px #ffffff;
@@ -83,7 +83,7 @@ body {
 
 .or-lower{
     float: left;
-    margin: 160px 60px 40px 40px;
+    margin: 5px 60px 40px 40px;
     height: 40px;
     width: 140px;
     border: solid 5px #ffffff;
